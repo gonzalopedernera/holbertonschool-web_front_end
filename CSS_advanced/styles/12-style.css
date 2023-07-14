@@ -54,7 +54,7 @@ a {
 .section-title {
 	font-family: var(--font-family-title);
 	font-size: var(--font-size-xx-large);
-	font-wright: var(--font-weight-bold);
+	font-weight: var(--font-weight-bold);
 	margin: var(--section-title-margin);
 	text-color: var(--section-title-color);
 }
