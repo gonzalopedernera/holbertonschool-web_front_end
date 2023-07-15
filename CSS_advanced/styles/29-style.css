@@ -302,7 +302,7 @@ ul.row {
 }
 
 .nav .nav-link .nav-link::before {
-	content: empty;
+	content: "";
 	position: absolute;
 	left: 0;
 	top: 0;
