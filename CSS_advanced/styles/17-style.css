@@ -25,7 +25,8 @@
 	--section-title-color: var(--color-black);
 	--section-padding: 5rem 0;
 	--section-header-padding: 0 0 3rem;
-	--section-body-padding: 3rem 0 0;
+	--section-body-padding: 0 0 3rem;
+	--section-footer-padding: 3rem 0 0;
 	--section-footer-align: center;
 	--footer-padding: 5rem 0 1rem;
 }
@@ -72,6 +73,11 @@ a:active {
 }
 
 .section {
+	padding: var(--section-padding);
+}
+
+.section-header {
+	text-align: var(--section-header-align);
 	padding: var(--section-header-padding);
 }
 
@@ -82,10 +88,6 @@ a:active {
 .section-footer {
 	padding: var(--section-footer-padding);
 	text-align: var(--section-footer-align);
-}
-
-.section-header {
-	text-align: var(--section-header-align);
 }
 
 .section-title {
@@ -113,6 +115,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: var(--font-weight-bold);
 }
 
-footer {
+.footer {
 	padding: var(--footer-padding);
 }
